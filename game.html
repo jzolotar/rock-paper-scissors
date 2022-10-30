@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+    <title>GAME</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Rock Paper Scissors</h1>
+    </header>
+
+    <section class="playground">
+      <article class="rounds">
+        <h1 class="rounds-info">
+          Round <span class="current-round">1</span>/6
+        </h1>
+      </article>
+      <article class="scoreboard">
+        <div class="player user">user</div>
+        <div class="player comp">comp</div>
+        <div class="scoreboard-result">
+          <span class="score-user">0</span> <span>:</span>
+          <span class="score-comp">0</span>
+        </div>
+      </article>
+      <article class="game result">
+        <p class="result-info">Your move :)</p>
+      </article>
+      <article class="game choice">
+        <button class="user-input rock">
+          <i class="far fa-hand-rock"></i>
+        </button>
+        <button class="user-input paper">
+          <i class="far fa-hand-paper"></i>
+        </button>
+        <button class="user-input scissors">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+      </article>
+      <article class="endgame hide">
+        <div class="endgame-wrapper">
+          <h1 class="endgame-title">Congrats</h1>
+          <p class="endgame-msg">You won ! 🏆🏆🏆</p>
+          <div class="endgame-btns">
+            <a href="/game.html" class="cta-btn">Play again</a>
+            <a href="/index.html" class="cta-btn">Leave</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
